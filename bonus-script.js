@@ -55,18 +55,18 @@ h4.style.border = "thick solid  #DA667B"; //color code for border
 root.appendChild(h4);
 
 
-
-//4th person
-const root5 = document.getElementById("root3");
+//jocsan
 const h5 = document.createElement("h2");
-h5.innerText =
-  "Hello! This is my HTML website created entirely from JavaScript";
-h5.style.fontFamily = "Georgia, serif";
-h5.style.backgroundColor = "DA667B";
-h5.style.border = "thick solid  #DA667B"; //color code for border
 
+h5.innerText = `My name is Jocsan Rodriguez, I studied computer science and try to become better at it. Other than that, I like to try new things out and enjoy stuff like eating out. 
+I also enjoy playing story games. The last two recent games I played were Doom: The Dark Ages and Death Stranding. Excited to play the second entry!`;
+h5.style.fontFamily = 'Courier New';
+h5.style.backgroundColor = "#280137";
+h5.style.color = "#882d17";
+h5.style.border = "thick solid #280137";
+h5.style.borderRadius = "20%";
+h5.style.padding = "2%";
+h5.style.margin = "35px 15px";
 root.appendChild(h5);
 
-
 console.log()
-
